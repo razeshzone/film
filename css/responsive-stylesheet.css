@@ -1,0 +1,442 @@
+@media(max-width:1400px) {
+    .hamburger__top {
+        padding: 20px 0 0px 0;
+    }
+
+    .menu__box .hamburger__mid li a {
+        padding: 5px 0;
+    }
+}
+
+@media(max-width:1200px) {
+    .hero__slider__item .overlay {
+        padding: 30px;
+    }
+
+    .hero__slider__item .overlay button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero__slider__item .overlay .overlay__box {
+        bottom: 30px;
+        width: calc(100% - 60px);
+    }
+
+    .hero__slider .slick-prev {
+        left: 40px;
+    }
+
+    .hero__slider .slick-next {
+        right: 40px;
+    }
+
+    .film__wrapper h1 {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .film__wrapper p {
+        font-size: 25px;
+    }
+
+    .film__wrapper_with__image p {
+        font-size: 18px;
+    }
+
+    .pad-y-5 {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+
+    .related__section {
+        padding: 50px 0;
+    }
+
+    .pt-15 {
+        padding-top: 8vh;
+    }
+
+    .related__section h2 {
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width:1024px) {
+
+    .video__section .container,
+    .film__wrapper_with__image .container {
+        max-width: 85%;
+    }
+
+    .section__products .container.pt-15 {
+        padding-top: 10vh;
+    }
+
+    .related__section .container.pad-y-5 {
+        padding-top: 0 !important;
+        padding-bottom: 0px !important;
+    }
+
+    .hero__reel__slider .positioned__overlay h1 {
+        font-size: 50px;
+    }
+}
+
+@media(max-width:991px) {
+    .section {
+        position: inherit;
+    }
+
+    .section.prev.down,
+    .section.active.up {
+        animation-name: inherit;
+        transition: all 5s ease-in-out;
+        -webkit-transition: all 5s ease-in-out;
+        -moz-transition: all 5s ease-in-out;
+        -ms-transition: all 5s ease-in-out;
+        -o-transition: all 5s ease-in-out;
+    }
+
+    .hero__slider__item .overlay h2 {
+        font-size: 20px;
+    }
+
+    .hero__slider .slick-prev {
+        left: 20px;
+    }
+
+    .hero__slider .slick-next {
+        right: 20px;
+    }
+
+    .hamburger__top {
+        padding: 20px 20px 20px 0px;
+    }
+
+    .menu__btn {
+        right: 15px;
+    }
+
+    .main-header .container,
+    .container {
+        max-width: 98%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .box {
+        width: 200px;
+        transform: none !important;
+    }
+
+    .box-22 {
+        top: 0;
+        right: 0;
+    }
+
+    .film__wrapper h1 {
+        font-size: 40px;
+    }
+
+    .film__wrapper p {
+        font-size: 20px;
+    }
+
+    .film__wrapper .container {
+        padding-right: 18vw;
+        padding-top: 20vh;
+    }
+
+    .film__wrapper .box-22,
+    .section__products .box-22 {
+        width: 100px;
+    }
+
+    .py-20 {
+        padding-top: 25vh;
+    }
+
+    .section__products .container {
+        max-width: 85%;
+        margin-left: 15px;
+    }
+
+    .product__list .item__description .text__lg,
+    .contact__section h4 {
+        font-size: 18px;
+    }
+
+    .product__list .item__description .text__sm,
+    .contact__section input {
+        font-size: 14px;
+    }
+
+    .product__list figure {
+        height: 300px;
+    }
+
+    .contact__section h2,
+    .related__section h2,
+    .section__products h2 {
+        font-size: 40px;
+    }
+
+    .related__section h2 {
+        margin-left: 15px;
+    }
+
+    .related__section h3 {
+        font-size: 20px;
+    }
+
+    .contact__section p,
+    .contact__section label {
+        font-size: 16px;
+    }
+
+    .film__wrapper_with__image .container {
+        /* padding-right: 18vw; */
+        padding-top: 10vh;
+        padding-right: 20px;
+    }
+
+    .hero__reel__slider .reel__explore a {
+        font-size: 18px;
+    }
+
+    .reel__photo span {
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width:768px) {
+    .menu__box {
+        width: 300px;
+        padding: 10px 20px 30px 20px;
+    }
+
+    .hamburger__top ul li a {
+        font-size: 14px;
+    }
+
+    .menu__box .hamburger__mid {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .menu__box .hamburger__mid li a {
+        font-size: 20px;
+    }
+
+    .menu__box .hamburger__mid li ul {
+        padding-left: 10px;
+    }
+
+    .menu__box .hamburger__mid li ul li a {
+        font-size: 12px;
+    }
+
+    .menu__btn {
+        top: 20px;
+    }
+
+    .film__wrapper .container {
+        padding-right: 20vw;
+        padding-top: 20vh;
+    }
+
+    .film__wrapper .box-22 {
+        width: 80px;
+    }
+
+    .film__wrapper p {
+        font-size: 18px;
+    }
+
+    .oneil__column-sm,
+    .oneil__column-lg {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .oneil__box {
+        flex-direction: row;
+        margin-bottom: 15px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .oneil__box span {
+        font-size: 18px;
+        margin-top: -5px;
+    }
+
+    .oneil__box i {
+        font-size: 20px;
+        padding-right: 10px;
+    }
+
+    .mobile__spacer {
+        padding-top: 25vh;
+    }
+
+    .product__list figure {
+        height: auto;
+    }
+
+    .product__list figure img {
+        width: 100%;
+    }
+
+    .section__products>#parallax-container {
+        height: 100%;
+        max-height: 100%;
+        box-shadow: none !important;
+        overflow: auto;
+    }
+
+    .container .semi__circle {
+        right: 0;
+    }
+
+    .contact__section input {
+        font-size: 16px;
+    }
+
+    .related__section .pad-y-5 {
+        padding-top: 0px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .contact__section .py-5 {
+        padding-bottom: 0 !important;
+    }
+
+    .related__section h2 {
+        margin-bottom: 0;
+    }
+
+    .related__section .section__num {
+        width: 50px;
+        height: 50px;
+    }
+
+    .related__section .section__num span {
+        font-size: 18px;
+    }
+
+    .hero__reel__slider .reel__explore a {
+        font-size: 16px;
+    }
+
+    .reel__photo span {
+        font-size: 16px;
+    }
+
+    .film__wrapper h1 {
+        font-size: 30px;
+    }
+
+    .video__section .container,
+    .film__wrapper_with__image .container {
+        padding-top: 10vh;
+        max-width: 98%;
+    }
+
+    .reel__photo {
+        margin-top: 30px;
+    }
+
+    .hero__reel__slider .container {
+        max-width: 96%;
+    }
+
+    .hero__reel__slider .positioned__overlay {
+        left: 10px;
+    }
+
+    .film__wrapper .box-22,
+    .section__products .box-22 {
+        width: 70px;
+    }
+
+    .contact__section h2,
+    .related__section h2,
+    .section__products h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:575px) {
+    .film__wrapper p {
+        font-size: 16px;
+    }
+
+    .film__wrapper .box-22 {
+        width: 60px;
+    }
+
+    .film__wrapper h1 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .cta-btn {
+        font-size: 16px;
+    }
+
+    .film__wrapper .box-22,
+    .section__products .box-22 {
+        width: 60px;
+        top: 10vh;
+    }
+
+    .box {
+        width: 100px;
+        top: 0vh;
+    }
+
+    .box-2 {
+        width: 100px;
+        top: 30vh;
+        right: 50vw;
+    }
+
+    .box__texture {
+        top: auto;
+        bottom: 0;
+    }
+
+    .film__wrapper .container {
+        padding-right: 15vw;
+        padding-top: 10vh;
+        min-width: 98%;
+    }
+
+    .reel__photo {
+        margin-top: 30px;
+        max-width: 70%;
+    }
+
+    .film__wrapper_with__image>#parallax-container {
+        height: auto;
+    }
+
+    .section__products .container.pt-15 {
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width:375px) {
+    .contact__section {
+        height: auto !important;
+    }
+
+    .cta-btn {
+        font-size: 14px;
+    }
+}
